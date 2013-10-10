@@ -1,0 +1,4 @@
+name: polymer_ui_overlay_dart
+description: A sample Polymer application
+dependencies:
+  polymer: any

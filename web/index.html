@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>polymer-overlay</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="import" href="polymer_ui_overlay.html">
+    
+    <!-- This is the bootstrap script for Polymer. 
+         Use this INSTEAD of dart.js -->
+    <script src="packages/polymer/boot.js"></script>
+  </head>
+  <body>
+    <h1>Polymer ui overlay</h1>
+    <!-- 
+    <div id="fixed">z-index: 100</div>
+    <button overlay="#dialog">Toggle Dialog</button>
+    <label>modal: <input type="checkbox" onchange="modalChange(event)"></label>
+    <label>backdrop: <input type="checkbox" onchange="backdropChange(event)"></label>
+    <label>z-index: <input onchange="zindexChange(event)"></label>
+    )
+    <br>
+    <polymer-ui-overlay id="dialog">
+      <div class="dialog">
+        <h2>Dialog</h2>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla sapien sed enim sollicitudin laoreet. Suspendisse suscipit, metus ac volutpat sodales, libero magna semper lacus, molestie fringilla massa orci ut arcu. Nullam sodales urna sit amet odio vehicula mattis.</div><br><br>
+        <div>Ut aliquam vulputate congue. Vestibulum pretium pretium nulla quis sollicitudin. Praesent lacinia congue erat nec mattis. Fusce commodo lacus est. Duis turpis eros, ultrices sed aliquet non, blandit egestas velit. Integer a augue nec lorem tristique hendrerit. Curabitur imperdiet risus id enim bibendum vestibulum. Integer id magna at arcu faucibus fermentum vel a augue. Sed fringilla venenatis dolor, in blandit magna molestie luctus. Vestibulum dignissim posuere ultrices. Aenean urna nisl, tincidunt vitae iaculis ut, pharetra nec eros.</div><br><br>
+        <div>
+          <input placeholder="say something..." autofocus oninput="somethingCheck()"></input><br>
+          I agree with this wholeheartedly.
+          <polymer-ui-overlay id="confirmation" class="dialog">
+            Thank you.
+          </polymer-ui-overlay>
+        </div><br><br>
+        <button overlay-toggle>OK</button>
+      </div>
+    </polymer-ui-overlay>
+ -->
+    <br><br>
+
+    <button overlay="#dialog2">Toggle Dialog 2</button>
+
+    <polymer-ui-overlay id="dialog2">
+      <div>
+        <h2>Dialog 2</h2>
+          I'm dizzy.
+      </div>
+      <br><br>
+      <button overlay-toggle>OK</button>
+    </polymer-ui-overlay>
+    
+    <script type="application/dart" src="index.dart"></script>
+  </body>
+</html>

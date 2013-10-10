@@ -1,0 +1,69 @@
+body {
+  background-color: #F8F8F8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+
+h1, p {
+  color: #333;
+}
+
+#fixed {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 300px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+/*
+polymer-ui-overlay {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  overflow: hidden;
+  background: white;
+  padding:30px 42px;
+  outline: 1px solid rgba(0,0,0,0.2);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+*/
+#dialog {
+  z-index: 100;
+}
+.dialog {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  overflow: hidden;
+  background: white;
+  padding:30px 42px;
+  outline: 1px solid rgba(0,0,0,0.2);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+#dialog {
+  top: 72px;
+  left: 50%;
+  width: 512px;
+  margin-left: -256px;
+}
+
+#confirmation {
+  position: absolute;
+  left: 50%;
+  top: 100px;
+  text-align: center;
+  width: 150px;
+  margin-left: -75px;
+}
